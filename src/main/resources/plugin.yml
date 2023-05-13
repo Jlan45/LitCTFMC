@@ -1,0 +1,25 @@
+name: CTFminecraftMaven
+version: '${project.version}'
+main: litctf.ctfminecraftmaven.CTFminecraftMaven
+api-version: 1.19
+commands:
+  #只有被注册的指令才能够正常使用
+  #请避免和现有指令重复
+  howtogetflag:
+    description: 获得flag的方法捏
+    usage: /howtogetflag
+  flag:
+    description: 可以直接获得flag耶
+    usage: /flag
+  whohasflag:
+    description: 看看哪位师傅有flag在身上
+    usage: /whohasflag
+  login:
+    description: 登录
+    usage: /login <password>
+  register:
+    description: 注册
+    usage: /register <password>
+  whataboutusers:
+    description: 查看用户列表
+    usage: /whataboutusers
